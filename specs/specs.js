@@ -1,8 +1,5 @@
-describe('99beer', function(userInput) {
-  // it("is not a valid input if it is less than 0", function() {
-  //   expect(factorial(-2)).to.equal("Its not a valid input, Please refresh and enter again.");
-  // });
-
-  it("will display two lines of 99 bottles when ")
-
+describe('beer', function() {
+  it("will return false if input is 0", function() {
+    expect(beer(0)).to.equal("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
   });
+});
